@@ -1,39 +1,56 @@
-body
-{
-    color:rgb(8, 98, 176);
+body {
+    display: flex;
+    color: rgb(8, 98, 176);
     text-align: center;
     font-family: "Arial";
-    
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
 }
 
-#container{
-   border: 1px dashed rgb(26, 60, 184);
-   margin: 10px;
-   padding: 15px;
+#container {
+    display: flex;
+    border: 1px dashed rgb(26, 60, 184);
+    margin: 10px;
+    padding: 15px;
+    max-width: 900px;
+    background-color: white;
+    flex-direction: column;
+    padding-top: 0px;
+    border-radius: 12px;
 }
 
-#cabecera{
+#cabecera {
+    display: flex;
     background-color: rgb(255, 0, 0);
-    font-size: 30px;
-    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    font-size: 25px;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
     color: azure;
-    margin:0px auto;
+    margin: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
     text-align: left;
-    padding: 8px;
+    padding: 0px 10px 0px 10px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
 
-    
+
 }
 
 #tagline {
-    font-size:15px;
+    font-size: 15px;
     color: white;
     float: right;
     margin-top: 11px;
-    
+    margin-right: 5px;
+
 
 }
 
-#post{
+#post {
     font-size: 15px;
     margin: 40px;
 }
@@ -42,7 +59,7 @@ p {
     font-size: 30px;
 }
 
-.foto-sala{
+.foto-sala {
 
     width: 200px;
     margin-top: 35px;
